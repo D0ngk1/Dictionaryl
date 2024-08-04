@@ -7,7 +7,7 @@ const DisplayResult = () => {
     const [word,setWord]=useState('');
     const [firstWord,setFirstWord]=useState('');
     const location = useLocation();
-    const [first,setFirst]=useState(true);
+   // const [first,setFirst]=useState(true);
     const {result,error,searchWord } = Result(word);
     const navigate = useNavigate();
 
