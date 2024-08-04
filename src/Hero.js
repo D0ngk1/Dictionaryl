@@ -2,7 +2,6 @@
 import {   useState } from "react";
 import { useNavigate } from 'react-router-dom';
 
-
 const Hero = () => {
     const [word,setWord] = useState('');    
     const navigate = useNavigate();
